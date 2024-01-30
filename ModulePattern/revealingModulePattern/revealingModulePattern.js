@@ -22,7 +22,7 @@ const getCounterMessage = () =>{
     console.log(`the actual count value is: ${counter}`)
 }
 
-const counterModule = {
+ const counterModule = {
     increment:increment(),
     decrement:decrement(),
     getCounter:getCounter(),
